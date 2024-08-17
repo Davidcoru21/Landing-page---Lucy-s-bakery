@@ -1,4 +1,4 @@
-body {
+body{
     font-family: Georgia,Times, Arial;
     margin: 0;
     padding: 0;
@@ -58,6 +58,10 @@ nav a:hover{
 
 .about img{
     max-width: 100%;
+}
+
+h2{
+    text-align: center;
 }
 
 .contact-form{
