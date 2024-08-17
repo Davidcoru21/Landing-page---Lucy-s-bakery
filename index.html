@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My landing page </title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <!--Encabezado de la pagina-->
+    <header>
+        <h1>Lucy's Bakery</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#acerca-de">Acerca de </a>
+            <a href="#productos">Productos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!--Informacion acerca de nosotros-->
+    <section id="acerca-de" class="section">
+        <h2>Acerca de Nosotros</h2>
+        <div class="about">
+            <h3>Nuestra Historia</h3>
+            <p>Lucy’s Bakery nació en el año 2020 con una visión clara: crear momentos dulces y memorables a través de nuestras deliciosas creaciones. Desde el primer día, nos hemos comprometido a utilizar solo los mejores ingredientes, seleccionados cuidadosamente para garantizar que cada bocado sea una experiencia única.
+                Lo que comenzó como un pequeño proyecto impulsado por la pasión por la repostería, rápidamente se convirtió en un referente para quienes buscan calidad y autenticidad en cada pastel, pan y postre. En Lucy’s Bakery, no solo horneamos; creamos con amor, dedicación y un compromiso inquebrantable con la excelencia.
+                Hoy, seguimos fieles a nuestra misión original, cuidando cada detalle en la elaboración de nuestros productos y asegurándonos de que cada cliente sienta la diferencia que marca nuestro toque especial. ¡Gracias por ser parte de nuestra historia!</p>
+            <img src="https://cdn.euroinnova.edu.es/img/subidasEditor/dise%C3%B1o%20sin%20t%C3%ADtulo%20(42)-1615154718.webp" alt="Acerca de nostotros">
+
+        </div>
+    </section>
+
+    <!--Seccion de productos-->
+    <section id="productos" class="section">
+        <h2>Nuestros Productos</h2>
+
+        <div class="product">
+            <h3>Pastel de tres leches</h3>
+            <img src="https://cdn7.kiwilimon.com/ss_secreto/3466/770x578/3466.jpg.webp" alt="Pastel de Tres Leches">
+        </div>
+
+        <div class="product">
+            <h3>Cake Pops</h3>
+            <img src="https://img.taste.com.au/AzW2leG_/w643-h428-cfill-q90/taste/2016/11/flower-cake-pops-61404-1.jpeg" alt="Cake Pops">
+        </div>
+
+        <div class="product">
+            <h3>CakeSicles</h3>
+            <img src="https://healthylittlepeach.com/wp-content/uploads/2023/04/unicorn-cakesicles-1-of-1-5-1024x1536.jpg" alt="CakeSicles">
+        </div>
+
+        <div class="product">
+            <h3>Galletas Personalizadas</h3>
+            <img src="https://panymas.com/wp-content/uploads/2020/06/GALLETAS_PERSONALIZADAS.jpg" alt="Galletas Personalizadas">
+        </div>
+    </section>
+
+    <!--Seccion de Contacto-->
+    <section id="contacto" class="section">
+        <h2>Contactanos</h2>
+        <form class="contact-form" action="/enviar-mensaje" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electronico</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea name="mensaje" id="mensaje" rows="5"></textarea>
+
+            <input type="submit" value="Enviar Mensaje">
+        </form>     
+    </section>
+    
+    <!--Pie de Pagina-->
+    <footer>
+        <p>&copy;2024 Lucy's Bakery. Todos los derechos reservados.</p>
+    </footer>
+        
+</body>         
+</html>    
+
+
+
