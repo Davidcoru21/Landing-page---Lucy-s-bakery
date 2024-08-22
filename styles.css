@@ -18,7 +18,8 @@ body{
 }
 
 h1{
-    font-size: 40px; 
+    font-size: 70px; 
+
 }
 
 header{
@@ -30,7 +31,7 @@ header{
 
 nav a{
     margin:15px;
-    text-decoration: none;
+    text-decoration:overline;
     color: #333;
     font-weight: bolder;
     font-style: italic; 
@@ -41,29 +42,51 @@ nav a:hover{
     color:#333;
     background-color:papayawhip;    
     border-radius: 5px;
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
 
 .section{
     padding: 20px;
+   
+
 }
 
 .product{
-    margin-bottom: 20px;
+    margin-bottom: 20px;   
 }
 
-.product img{
-    max-width: 50%;
-}
+.products img{
+    max-width: 70%;
+    height: 500px;
+    width: 550px; 
+ }   
+ 
+ .products img:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+    
+ }
+
+
 
 .about img{
-    max-width: 100%;
+    max-width:100%;
+    width: 100%;
 }
 
 h2{
-    text-align: center;
+    text-align: center ;
+    font-size: xx-large;
+
 }
 
+h3{
+    font-size:x-large;
+}
+
+p{
+    font-weight: bold;
+}
 .contact-form{
     background-color:rgba(255, 255, 255, 0.5);
     padding:10px 20px;
@@ -82,3 +105,6 @@ footer{
     width: 100%;
     bottom: 0;
 }
+
+
+
