@@ -14,7 +14,6 @@ body{
     background-repeat:no-repeat ;
     background-blend-mode:normal;
     background-attachment: fixed;
-
 }
 
 h1{
@@ -104,6 +103,17 @@ footer{
     padding: 10px;
     width: 100%;
     bottom: 0;
+}
+
+.social-icon{
+    color: #fff;
+    margin: 0 10px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.social-icon:hover{
+    color:aqua
 }
 
 
