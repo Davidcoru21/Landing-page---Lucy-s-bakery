@@ -77,13 +77,14 @@ p{
 }
 
 .product{
-    margin-bottom: 20px;   
+    margin-bottom: 20px;
+      
 }
 
 .products img{
-    max-width: 70%;
-    height: 500px;
-    width: 550px; 
+    max-width: 90%;
+    height: 550px;
+    width: 600px; 
     border-radius: 10px; 
     margin-bottom: 70px;
 }   
@@ -91,6 +92,24 @@ p{
 .products img:hover{
     transform: scale(1.2);
     transition: transform 0.5s ease;
+}
+
+.product-card{
+    background-color: lavenderblush;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 450px;
+    text-align: center;
+    padding: 1rem;
+    transition: transform 0.3s ease;
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+    padding: 2rem; 
 }
 
 .contact-form{
@@ -125,6 +144,9 @@ footer{
 .social-icon:hover{
     color:aqua
 }
+
+
+
 
 
 
