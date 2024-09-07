@@ -16,8 +16,9 @@ body{
     background-attachment: fixed;
 }
 
-h1{
-    font-size: 70px; 
+header h1{
+    font-size: 90px; 
+    color: rgb(236, 156, 236);
 }
 
 header{
@@ -30,16 +31,20 @@ header{
 nav a{
     margin:15px;
     text-decoration:overline;
-    color: #333;
+    color: white;
     font-weight: bold;
     font-style: italic; 
     text-shadow: 2px 3px 4px palevioletred;
 }
 
 nav a:hover{
-    color:#333;  
+    color:white;  
     border-radius: 5px;
     text-transform: uppercase;
+}
+
+.section{
+    color: #fff;
 }
 
 h2{
@@ -52,11 +57,19 @@ h3{
 }
 
 p{
-    font-weight: bold;
+    font-size: x-large;
 }
 
 .section{
     padding: 50px;
+}
+
+.section-title{
+    color:white;
+}
+
+.section-contact h2{
+    color: #fff;
 }
 
 .products{
@@ -74,7 +87,7 @@ grid-row-gap: 10px;
     width: 600px; 
     border-radius: 10px; 
     margin-bottom: 70px;
-}  
+}
  
 .products img:hover{
     transform: scale(1.2);
@@ -88,26 +101,44 @@ grid-row-gap: 10px;
     overflow: hidden;
     max-width: 450px;
     text-align: center;
+    color: rgb(236, 156, 236);
     padding: 1rem;
     transition: transform 0.3s ease;
     font-size: 1.5rem;
     margin: 0.5rem 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content:space-around;
     gap: 2rem;
     padding: 2rem; 
 }
 
+
+/*Caja de Formulario de Contacto*/
 .contact-form{
     background-color:rgba(255, 255, 255, 0.5);
     padding:10px 20px;
     border-radius: 25px; 
     box-shadow: 0 0 10px ;
-    max-width:fit-content;
+    max-width:100%;
     margin: 0 auto;
-} 
+}
 
+.contact-form{
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc;
+}
+
+/*Efecto de Zoom en Funcion "Enviar Mensaje"*/
 .contact-form input[type="submit"]:hover{
     background-color: #ffb380;
 }
